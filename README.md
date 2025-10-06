@@ -44,15 +44,11 @@ Follow these steps to set up the project:
       ```
 
 10. **Add the Server to Claude Desktop**
-     - Install the server for Claude Desktop:
+     - Install the server for Claude Desktop and run:
         ```sh
-        uv run fastmcp install
+        uv run fastmcp install claude-desktop main.py
         ```
-     - Then run:
-        ```sh
-        claude-desktop main.py
-        ```
-
+     
 ---
 
 **Note:** Replace `main.py` with your actual server file if different.
